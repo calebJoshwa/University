@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav class="nav1">
+        <a href="./main.html"><img src="./logo.png" alt="not found"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <a href="./main.html">HOME</a>
+                <a href="./about.html">ABOUT</a>
+                <a href="./course.html">COURSE</a>
+                <a href="./blog.html">BLOG</a>
+                <a href="./contact.html">CONTACT</a>
+        </div>
+        <i id="navicon" class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <script>
+var navLinks=document.getElementById("navlinks");
+function showmenu(){
+    navLinks.style.right="0";
+}
+function hidemenu(){
+    navLinks.style.right="-200px";
+}
+</script>
+<!--Cpurses-->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati fuga dignissimos consequatur blanditiis fugit, laboriosam, libero odit nulla aut soluta aspernatur ducimus vero reiciendis impedit! Magnam expedita temporibus rerum!</p>
+        </div>
+         <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati fuga dignissimos consequatur blanditiis fugit, laboriosam, libero odit nulla aut soluta aspernatur ducimus vero reiciendis impedit! Magnam expedita temporibus rerum!</p>
+        </div>
+         <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati fuga dignissimos consequatur blanditiis fugit, laboriosam, libero odit nulla aut soluta aspernatur ducimus vero reiciendis impedit! Magnam expedita temporibus rerum!</p>
+        </div>
+       
+    </div>
+    </section>
+<!--Facilities-->
+<section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="./library.png" alt="not found">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vero id consectetur earum.</p> 
+                </div>
+                 <div class="facilities-col">
+                    <img src="./basketball.png" alt="not found">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vero id consectetur earum.</p> 
+                </div>
+                 <div class="facilities-col">
+                    <img src="./cafeteria.png" alt="not found">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vero id consectetur earum.</p> 
+                </div>
+            </div>
+        </section>
+<!-- Footer -->
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Quisquam, quod.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by University</p>
+ </section>
+</body>
+</html>
